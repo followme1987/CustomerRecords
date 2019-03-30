@@ -1,6 +1,6 @@
 # CustomerRecords
 
-A Web Api/console application that returns the name and Id of the customers within 100km of Intercom Dublin office.
+A Web Api/console application that returns the name and Id of the customers within 100km of the given coordinates.
 
 ## Use
 
