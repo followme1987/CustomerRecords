@@ -46,7 +46,15 @@ WebAPI entry point
   - .NET Core Web API 2.2 
   - .NET Standard 2.0
   -  IDE: Visual Studio 2019
-  
+
+## Output Result
+
+![ApiOutput](https://user-images.githubusercontent.com/6312031/55278500-0c6e2e00-5305-11e9-83fd-a27cf24a0f9a.PNG)
+
+![ConsoleApplicationOutput](https://user-images.githubusercontent.com/6312031/55278512-2e67b080-5305-11e9-845c-16aac90a4458.PNG)
+
+![test](https://user-images.githubusercontent.com/6312031/55278517-34f62800-5305-11e9-854b-5326a5e8275f.PNG)
+
 ### Contact details
 
 wuyichen1987@gmail.com
