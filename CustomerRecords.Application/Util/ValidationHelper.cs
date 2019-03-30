@@ -1,7 +1,7 @@
 ﻿using System;
 using CustomerRecords.Domain;
 
-namespace CustomerRecords.Start.Util
+namespace CustomerRecords.Application.Util
 {
     public static class ValidationHelper
     {

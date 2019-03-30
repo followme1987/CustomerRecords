@@ -1,9 +1,9 @@
+using System;
 using CustomerRecords.Application.Service;
 using CustomerRecords.Domain;
 using NUnit.Framework;
-using System;
 
-namespace Tests
+namespace CustomerRecords.Application.Test
 {
     [TestFixture]
     public class DistanceCalculatorDefaultFormulasServiceTest

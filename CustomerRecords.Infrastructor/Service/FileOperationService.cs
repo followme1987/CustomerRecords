@@ -1,9 +1,9 @@
-﻿using System;
+﻿using CustomerRecords.Domain;
+using CustomerRecords.Infrastructure.Extension;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
-using CustomerRecords.Domain;
-using CustomerRecords.Infrastructure.Extension;
 
 namespace CustomerRecords.Infrastructure.Service
 {

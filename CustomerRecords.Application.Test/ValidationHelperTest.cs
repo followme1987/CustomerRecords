@@ -1,9 +1,8 @@
+using CustomerRecords.Application.Util;
 using CustomerRecords.Domain;
-using CustomerRecords.Start.Test;
-using CustomerRecords.Start.Util;
 using NUnit.Framework;
 
-namespace Tests
+namespace CustomerRecords.Application.Test
 {
     [TestFixture]
     public class ValidationHelperTests

@@ -1,19 +1,23 @@
-﻿using System;
-using CustomerRecords.Application.Service.Interface;
+﻿using CustomerRecords.Application.Service.Interface;
 using CustomerRecords.Domain;
+using System;
 
 namespace CustomerRecords.Application.Service
 {
     public class DistanceCalculatorDefaultFormulasService : IGenericDistanceCalculatorService
     {
         private readonly double _destinationLatitude;
+
         private readonly double _destinationLongitude;
+
         private readonly double _radius;
 
         public DistanceCalculatorDefaultFormulasService()
         {
             _radius = 6371;
+
             _destinationLatitude = 53.339428;
+
             _destinationLongitude = -6.257664;
         }
 
@@ -23,6 +27,7 @@ namespace CustomerRecords.Application.Service
 
             var (customerRadiansLatitude, customerRadiansLongitude) =
                 DegreesToRadians(customerPosition.Latitude, customerPosition.Longitude);
+
             var (destinationRadiansLatitude, destinationRadiansLongitude) =
                 DegreesToRadians(_destinationLatitude, _destinationLongitude);
 
@@ -41,6 +46,7 @@ namespace CustomerRecords.Application.Service
         private static double CalculateAbsoluteDifferences(double customerLongitude, double destinationLongitude)
         {
             var dLon = Math.Abs(destinationLongitude - customerLongitude);
+
             return dLon;
         }
 

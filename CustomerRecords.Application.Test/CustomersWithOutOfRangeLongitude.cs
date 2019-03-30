@@ -1,6 +1,6 @@
 ﻿using CustomerRecords.Domain;
 
-namespace CustomerRecords.Start.Test
+namespace CustomerRecords.Application.Test
 {
     internal class CustomersWithOutOfRangeLongitude
     {

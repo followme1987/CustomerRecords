@@ -1,18 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using CustomerRecords.Application.Service;
+﻿using CustomerRecords.Application.Service;
 using CustomerRecords.Application.Service.Interface;
 using CustomerRecords.Domain;
 using CustomerRecords.Infrastructure.Service;
-using CustomerRecords.Start.Util;
 using Microsoft.Extensions.DependencyInjection;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using CustomerRecords.Application.Util;
 
 namespace CustomerRecords.Start
 {
     internal class Program
     {
         private const double WithinDistance = 100;
+
         private const string FilePath = @"File\customers.txt";
 
         private static void ConfigureServices(IServiceCollection serviceCollection)
@@ -37,9 +38,13 @@ namespace CustomerRecords.Start
                 var customerListFromJsonFile = GetFullCustomerListFromJasonFile(serviceProvider);
 
                 if (customerListFromJsonFile.Any())
+                {
                     GetInvitedCustomers(customerListFromJsonFile, serviceProvider);
+                }
                 else
+                {
                     Console.WriteLine("No customers retrieved from the file");
+                }
             }
             catch (Exception e)
             {
@@ -76,7 +81,10 @@ namespace CustomerRecords.Start
                             });
 
                     if (ValidationHelper.IsCustomerPositionWithInDistance(customerDistanceToInterComOffice,
-                        WithinDistance)) Console.WriteLine($"{customer.Id} - {customer.Name}");
+                        WithinDistance))
+                    {
+                        Console.WriteLine($"{customer.Id} - {customer.Name}");
+                    }
                 }
                 else
                 {

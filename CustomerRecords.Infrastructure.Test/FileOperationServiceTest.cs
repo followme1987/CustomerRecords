@@ -1,12 +1,11 @@
-using CustomerRecords.Domain;
-using CustomerRecords.Infrastructure.Service;
-using CustomerRecords.Infrastructure.Test;
-using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using CustomerRecords.Domain;
+using CustomerRecords.Infrastructure.Service;
+using NUnit.Framework;
 
-namespace Tests
+namespace CustomerRecords.Infrastructure.Test
 {
     [TestFixture]
     public class FileOperationServiceTest
