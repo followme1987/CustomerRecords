@@ -1,11 +1,10 @@
-using CustomerRecords.WebApi;
-using Microsoft.AspNetCore.Mvc.Testing;
-using NUnit.Framework;
 using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc.Testing;
+using NUnit.Framework;
 
-namespace Tests
+namespace CustomerRecords.WebApi.IntegrationTest
 {
     [TestFixture]
     public class CustomerRecordsControllerTest

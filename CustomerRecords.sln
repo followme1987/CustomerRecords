@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerRecords.Application", "CustomerRecords.Application\CustomerRecords.Application.csproj", "{74A9FC26-A8BC-4DE5-A803-DC8EF93FEFC4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerRecords.Infrastructure", "CustomerRecords.Infrastructor\CustomerRecords.Infrastructure.csproj", "{FD7278EC-A30C-4526-A45E-7F2742870187}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerRecords.Infrastructure", "CustomerRecords.Infrastructure\CustomerRecords.Infrastructure.csproj", "{FD7278EC-A30C-4526-A45E-7F2742870187}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerRecords.Domain", "CustomerRecords.Domain\CustomerRecords.Domain.csproj", "{222A3877-A710-49A6-BAC8-69AEFB2AFD7A}"
 EndProject
